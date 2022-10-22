@@ -2,12 +2,12 @@
 
 import React from "react";
 import { Navbar, NavbarBrand, NavbarText } from "reactstrap";
-import { Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <Navbar color="info" light>
-      <NavbarBrand tag={Navigate} to="/" className="text-white">
+      <NavbarBrand tag={Link} to="/" className="text-white">
         LCO Contact App
       </NavbarBrand>
       <NavbarText className="text-white float-right">
